@@ -8,6 +8,7 @@
   flex-direction: column;
   align-items: center;
   margin-left: 10px;
+  overflow: hidden;
 }
 
 .add-session {
@@ -29,7 +30,14 @@ ul {
   padding: 0;
   margin: 0;
   width: 100%;
+  overflow-y: auto; 
+  flex-grow: 1; 
 }
+
+li {
+  width: 100%; 
+}
+
 .delete-session {
   width: 100%;
   border: none;
