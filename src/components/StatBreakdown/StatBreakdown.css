@@ -1,0 +1,19 @@
+.stat-breakdown {
+  margin: 0px 0 15px;
+  padding: 20px;
+  border: 1px solid #000000;
+  width: 75%;
+}
+
+.stat-breakdown h2 {
+  margin-bottom: 10px;
+}
+
+.stat-breakdown ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.stat-breakdown li {
+  margin: 5px 0;
+}
