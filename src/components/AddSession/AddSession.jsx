@@ -1,5 +1,6 @@
+import "./AddSession.css";
 const AddSessionModal = (props) => {
-  const { setIsModalOpen, handleChange } = props;
+  const { setIsModalOpen, handleChange, handleSubmit, newSession } = props;
   return (
     <div className="modal">
       <div className="modal-content">
@@ -7,15 +8,6 @@ const AddSessionModal = (props) => {
           &times;
         </span>
         <form onSubmit={handleSubmit}>
-          <label>
-            ID:
-            <input
-              type="text"
-              name="id"
-              value={newSession.id}
-              onChange={handleChange}
-            />
-          </label>
           <label>
             Game Type:
             <input

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import SessionList from "./components/SessionList/SessionList";
+import './App.css'
 
 function App() {
   const initialSessions = [
