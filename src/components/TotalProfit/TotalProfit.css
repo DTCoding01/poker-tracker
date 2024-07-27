@@ -1,0 +1,33 @@
+.total-profit-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+
+.total-profit, .stat-heading {
+    border: 1px solid black;
+    padding: 15px 5px 15px; 
+    width: 83%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.stat-heading {
+    padding: 3px;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+.profit-positive {
+    color: green;
+}
+
+.profit-negative {
+    color: red;
+}

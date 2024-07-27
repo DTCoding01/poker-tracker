@@ -1,6 +1,7 @@
 import { useState } from "react";
 import SessionList from "./components/SessionList/SessionList";
-import './App.css'
+import Dashboard from "./components/Dashboard/Dashboard";
+import "./App.css";
 
 function App() {
   const initialSessions = [
@@ -10,7 +11,7 @@ function App() {
       startBalance: 500,
       endBalance: 700,
       startTime: 1900,
-      endTime: 2300,
+      endTime: 2330,
     },
     {
       id: 2,
@@ -18,12 +19,17 @@ function App() {
       startBalance: 500,
       endBalance: 200,
       startTime: 1800,
-      endTime: 2200,
+      endTime: 2240,
     },
   ];
   const [allSessions, setAllSessions] = useState(initialSessions);
 
-  return <SessionList allSessions={allSessions} setAllSessions={setAllSessions}/>;
+  return (
+    <main>
+      <Dashboard allSessions={allSessions} />
+      <SessionList allSessions={allSessions} setAllSessions={setAllSessions} />
+    </main>
+  );
 }
 
 export default App;

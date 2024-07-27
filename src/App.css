@@ -8,3 +8,9 @@ body {
     align-items: center;
     font-family: monospace;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    
+}

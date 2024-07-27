@@ -1,0 +1,37 @@
+.stats {
+  display: flex;
+  justify-content: space-between;
+  width: 89%;
+  margin-top: 0px;
+  padding: 0;
+}
+
+.stat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 20px;
+  width: 20%; 
+}
+
+.stat-heading-small,
+.stat-value {
+  border: 1px solid black;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.stat-heading-small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+  height: 5px;
+  padding: 6px 15px;
+}
+
+.stat-value {
+  margin-top: 4px;
+}
